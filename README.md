@@ -67,3 +67,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Once you've connected into VM1's Remote desktop, Connect to the internet to Download the "WireShark" software then install it unto VM1.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/LQoeyv9.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Open the "WireShark" application once it finish installing. Double Click the "Ethernet adapter" Option to start seeing the live traffic thats happening on the virtual machine
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/LQoeyv9.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Open the "WireShark" application once it finish installing. Double Click the "Ethernet adapter" Option to start seeing the live traffic thats happening on the virtual machine
+</p>
+<br />
