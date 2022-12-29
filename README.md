@@ -48,6 +48,22 @@ Notice in the "Networking" tab that the VM created its own subnet and IP address
 <img src="https://i.imgur.com/kEG8YZv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The 2nd virtual machine being created in Azure is VM2. The operating system being used is Linux (Ubuntu 20.04)
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6JDj8tq.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+These are the current resources we now have setup inside of Azure.  2 Virtual Machines, 2 Virtual NIC's, 2 Network Security Groups, 2 public IP addresses, and 1 Virtual Network connecting both VM's.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/kEG8YZv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The 2nd virtual machine being created in Azure is VM2. The operating system being used is Linux (Ubuntu 20.04)
 </p>
 <br />
