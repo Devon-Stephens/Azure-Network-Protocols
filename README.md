@@ -72,7 +72,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/LQoeyv9.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- Open the "WireShark" application once it finish installing. Double Click the "Ethernet adapter" Option to start seeing the live traffic thats happening on the virtual machine
+- Open the "WireShark" application once it finish installing. Double Click on the "Ethernet adapter" Option to start seeing the live data traffic that's happening on the virtual machine. The Blue icon in the top left corner should turn red when traffic is passing through.
 </p>
 <br />
 
@@ -81,6 +81,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/LQoeyv9.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- Open the "WireShark" application once it finish installing. Double Click the "Ethernet adapter" Option to start seeing the live traffic thats happening on the virtual machine
+- Open the "WireShark" application once it finish installing. Double Click on the "Ethernet adapter" Option to start seeing the live data traffic that's happening on the virtual machine. The Blue icon in the top left corner should turn red when traffic is passing through.
 </p>
 <br />
