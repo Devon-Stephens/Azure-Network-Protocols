@@ -32,7 +32,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/oQI4sfL.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The first virtual machine being created in Azure is VM1, The operating system being used is Windows 10 pro
+- The first virtual machine being created in Azure is VM1, The operating system being used is Windows 10 pro
 </p>
 <br />
 
@@ -40,7 +40,7 @@ The first virtual machine being created in Azure is VM1, The operating system be
 <img src="https://i.imgur.com/PMenivn.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Notice in the "Networking" tab that the VM created its own subnet and IP address. This is important because although each Virtual Machine will have its own IP address and subnet, Both virtual machines (VM1 & VM2) will have the same Virtual Network.
+- Notice in the "Networking" tab that the VM created its own subnet and IP address. This is important because although each Virtual Machine will have its own IP address and subnet, Both virtual machines (VM1 & VM2) will have the same Virtual Network.
 </p>
 <br />
 
@@ -48,7 +48,7 @@ Notice in the "Networking" tab that the VM created its own subnet and IP address
 <img src="https://i.imgur.com/kEG8YZv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The 2nd virtual machine being created in Azure is VM2. The operating system being used is Linux (Ubuntu 20.04)
+- The 2nd virtual machine being created in Azure is VM2. The operating system being used is Linux (Ubuntu 20.04)
 </p>
 <br />
 
@@ -56,14 +56,14 @@ The 2nd virtual machine being created in Azure is VM2. The operating system bein
 <img src="https://i.imgur.com/6JDj8tq.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-These are the current resources we now have setup inside of Azure.  2 Virtual Machines, 2 Virtual NIC's, 2 Network Security Groups, 2 public IP addresses, and 1 Virtual Network connecting both VM's.
+- These are the current resources we now have setup inside of Azure.  2 Virtual Machines, 2 Virtual NIC's, 2 Network Security Groups, 2 public IP addresses, and 1 Virtual Network connecting both VM's.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/kEG8YZv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dMj9wKX.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The 2nd virtual machine being created in Azure is VM2. The operating system being used is Linux (Ubuntu 20.04)
+- Once you've connected into VM1's Remote desktop, Connect to the internet to Download the "WireShark" software then install it unto VM1.
 </p>
 <br />
