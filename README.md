@@ -78,9 +78,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 <p>
-<img src="https://i.imgur.com/LQoeyv9.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1nMJJh3.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- Open the "WireShark" application once it finish installing. Double Click on the "Ethernet adapter" Option to start seeing the live data traffic that's happening on the virtual machine. The Blue icon in the top left corner should turn red when traffic is passing through.
+- As you can see ICMP traffic shows up on WireShark when you test the Connectivity of VM2. On the command line its continuing to send packets beccause VM2's network security group is allowing inbound IMCP traffic to come through.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/WXXhWEq.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- In the Azure Portal you can configure the Network security group settings to stop ICMP traffic from getting to VM2. By 
 </p>
 <br />
