@@ -25,7 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Connect to Virtual Machine #1 using Remote Connection, then download & install "WireShark" software.
 - Test Connectivity of Virtual Machine #2 using the Command Line and notice ICMP traffic in WireShark.
 - Create a firewall setting for Virtual Machine #2 in Microsoft Azure to stop all incomning ICMP traffic. 
-- Securely connect to Virtual machine #2 using SSH protocol in VM1's command line. Check SSH traffic in WireShark.
+- Securely connect to Virtual machine #2 using Secure Shell protocol in VM1's powershell. Check SSH traffic in WireShark.
 - Use Command lines in Microsoft PowerShell to check DNS traffic in WireShark.
 
 <h2>Actions and Observations</h2>
