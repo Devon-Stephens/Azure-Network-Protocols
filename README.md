@@ -81,7 +81,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/1nMJJh3.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- As you can see ICMP traffic shows up on WireShark when you test the Connectivity of VM2. On the command line its continuing to send packets beccause VM2's network security group is allowing inbound IMCP traffic to come through.
+- As you can see, the ICMP traffic shows up on WireShark when you test the Connectivity of VM2. On the command line its continuing to send packets beccause VM2's network security group is allowing inbound ICMP traffic to come through.
 </p>
 <br />
 
@@ -89,6 +89,22 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/WXXhWEq.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- In the Azure Portal you can configure the Network security group settings to stop ICMP traffic from getting to VM2. By 
+- In the Azure Portal you can configure the Network security group settings to stop ICMP traffic from getting to VM2. By denying all inbound ICMP traffic, the Ping connectivity from VM1's command line will cease.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/yV9Z675.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Now that the rules are changed lets see what happens on WireShark and Command Line.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/1Erg7ii.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- As you can see the connectivity between the two virtual machines dropped, so basically whats happening here is that the Ping signal thats being sent from VM1's command line is being blocked by VM2's firewall or network security group.
 </p>
 <br />
