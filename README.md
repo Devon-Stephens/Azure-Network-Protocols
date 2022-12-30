@@ -108,3 +108,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - As you can see the connectivity between the two virtual machines dropped, so basically whats happening here is that the Ping signal thats being sent from VM1's command line is being blocked by VM2's firewall or network security group.
 </p>
 <br />
+
+
+<p>
+<img src="https://i.imgur.com/xh8H7U3.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Using Secure Shell protocol in "Windows Power Shell" to connect to VM2's command line.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/P2EeZkk.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- In Power Shell when you type "nslookup" + the name of a website you can see DNS traffic being sent on WireShark. This is because a DNS translates domain names to IP addresses so browsers can load Internet resources.
+</p>
+<br />
