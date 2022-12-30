@@ -11,7 +11,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (SSH, DNS, ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -21,10 +21,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create 2 Virtual Machines within Microsoft Azure. Using a Windows 10 Pro Operating System and Linux.
-- Connect to Virtual Machine 1 using Remote Connection, then download & install "WireShark" software.
-- Step 3
-- Step 4
+- Create 2 Virtual Machines (VM1 & VM2) within Microsoft Azure. Using a Windows 10 Pro Operating System and Linux.
+- Connect to Virtual Machine #1 using Remote Connection, then download & install "WireShark" software.
+- Test Connectivity of Virtual Machine #2 using the Command Line and notice ICMP traffic in WireShark.
+- Create a firewall setting for Virtual Machine #2 in Microsoft Azure to stop all incomning ICMP traffic. 
+- Securely connect to Virtual machine #2 using SSH protocol in VM1's command line. Check SSH traffic in WireShark.
+- Use Command lines in Microsoft PowerShell to check DNS traffic in WireShark.
 
 <h2>Actions and Observations</h2>
 
